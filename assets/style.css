@@ -1,0 +1,43 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: purple;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+h1,
+p {
+  text-align: center;
+  opacity: 0;
+  animation: opacity 0.5s ease forwards;
+}
+
+@media (max-width: 500px) {
+  br {
+    display: none;
+  }
+}
+
+@keyframes opacity {
+  to {
+    opacity: 1;
+  }
+}
