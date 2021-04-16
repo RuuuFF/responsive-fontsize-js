@@ -14,7 +14,7 @@ I created this project, using **JavaScript**, to solve a need of mine, to adjust
 
 # 🤷‍♂️ How to use?
 
-In the <a href="#">Fonts.js</a> folder have an object called **_Options_** and an array called **_Fonts_**.
+In the <a href="https://github.com/RuuuFF/responsive-fontsize-js/blob/master/Fonts.js">Fonts.js</a> folder have an object called **_Options_** and an array called **_Fonts_**.
 
 Starting with **_Options_**:
 
